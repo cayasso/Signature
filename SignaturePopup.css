@@ -1,0 +1,32 @@
+
+.signature-popup {
+	border: 2px solid #014F7F;
+	box-shadow: inset 0px 1px 10px rgba(0, 0, 0, 1);
+	text-align: center;
+	padding: 15px 0;
+}
+.signature-popup-text {
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+}
+.signature-popup-copy {
+	font-size: 18px;
+	width: 300px;
+	display: inline-block;
+	color: #666;
+}
+
+.signature-cancel-btn.onyx-button,
+.signature-clear-btn.onyx-button,
+.signature-accept-btn.onyx-button.open-button {
+	float: left;
+	padding: 6px 15px;
+	font-size: 14px; 
+	font-weight: bold;
+	margin: 0px 5px;
+}
+
+.signature-accept-btn.onyx-button.open-button {
+	float: right;
+}
